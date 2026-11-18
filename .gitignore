@@ -1,0 +1,7 @@
+out/
+notes/
+cases/
+transcripts.tar.gz
+wallet.json
+*.keypair.json
+node_modules/
