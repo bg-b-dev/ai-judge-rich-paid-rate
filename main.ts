@@ -7,7 +7,6 @@ const LINES: string[] = [
   'Alone: API keypair sign-in; no ID under $2,000 a year.',
   'Checked 18 Nov, make.fun API: 35 bounties in 7 days, 32 free, $16,241, median 24 h open. Top 50 by wins: 62% of 968 entries placed, $6.57 each.',
   'My record @bg-b: 2 closed, 2 paid: 5th of 164 ($10), 36th of 531 ($13), on chain 8 h and 23 h after: $11.50 each.',
-  'Not DevPool: 123 priced issues open, but 10 completed in 30 days on the whole board.',
   'Day 1: $85 kept; $10 fees, $5 SOL; enter roblox-brainrot-01: $1,000, 50 places, 36 submissions.',
   'Daily: enter 3-4 of ~5 new; test each entry on its kit and judge text.',
   'Math (estimate): 105 settled (3.5 a day x 30) x my $11.50 = $1,207.50 + $85 = $1,292.50.',
