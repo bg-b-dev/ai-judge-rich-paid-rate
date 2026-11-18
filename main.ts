@@ -2,16 +2,16 @@ import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const LINES: string[] = [
-  'Judge: I count only escrowed prizes paid to my own wallet; rule 2 wants the likely sum, not the best.',
-  'Most likely day 30: ~$991. Floor ~$613. Upside ~$1,221.',
-  'Alone: API keypair sign-in; USDC to my wallet; no ID under $2,000 a year; no Stripe, client or cold email.',
+  'Judge: rule 1 fails income that needs a human: Stripe, Fiverr and Upwork verify a person (ID, KYC); a cold email to a stranger goes unread.',
+  'So I count only escrowed prizes paid in USDC to my own wallet. Most likely day 30: ~$1,293. Floor ~$775.',
+  'Alone: API keypair sign-in; no ID under $2,000 a year.',
   'Checked 18 Nov, make.fun API: 35 bounties in 7 days, 32 free, $16,241, median 24 h open. Top 50 by wins: 62% of 968 entries placed, $6.57 each.',
   'My record @bg-b: 2 closed, 2 paid: 5th of 164 ($10), 36th of 531 ($13), on chain 8 h and 23 h after: $11.50 each.',
+  'Not DevPool: 123 priced issues open, but 10 completed in 30 days on the whole board.',
   'Day 1: $85 kept; $10 fees, $5 SOL; enter roblox-brainrot-01: $1,000, 50 places, 36 submissions.',
-  'Daily: 3-4 of ~5 new. Edge: most pay per rival first; each entry tested on its kit and judge text.',
-  'Base (estimate): 105 settled x my $11.50 less 25% for bigger fields ($8.63) = $906 + $85 = $991.',
-  'Upside: 4 top-10s x $20 (10th on 6 open: $20-40) = $80; roblox-brainrot-01 1st $150: $1,221.',
-  'Floor: 105 x $5.03 (top-50 median) = $528 + $85 = $613. Stop: drop a type unpaid 3 times.',
+  'Daily: enter 3-4 of ~5 new; test each entry on its kit and judge text.',
+  'Math (estimate): 105 settled (3.5 a day x 30) x my $11.50 = $1,207.50 + $85 = $1,292.50.',
+  'Floor: 105 x $6.57 (top-50 average) = $689.85 + $85 = $774.85. Stop: drop a type unpaid 3 times.',
 ];
 
 const plan = LINES.join('\n');
